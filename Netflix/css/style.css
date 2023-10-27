@@ -1,4 +1,53 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    overflow-y: hidden;
+    color: white;
+}
+
+.root{
+    background-image: radial-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(/Netflix/images/landing\ page.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    padding-left: 2vw;
+    padding-right: 4vw;
+    padding-top: 1%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .img-netflix{
     width: 14%;
+    color: #e50914;
+}
 
+.btn-language{
+    background-color: #1d1818;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 4px;
+}
+
+.btn-sign-in{
+    background-color: #e50914;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 5px;
+   width: fit-content;
+    cursor: pointer;
+}
+
+.main-container{
+    height: 90vh;
 }
