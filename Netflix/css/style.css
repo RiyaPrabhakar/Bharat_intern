@@ -51,3 +51,12 @@ body{
 .main-container{
     height: 90vh;
 }
+.main-title-contanier{
+    color: white;
+    width: 50%;
+    text-align: center;
+
+}
+.main-title{
+    font-size: 3.2em;
+}
