@@ -1,4 +1,3 @@
-
 body{
     padding: 0%;
     margin: 0%;
@@ -30,11 +29,12 @@ body{
 
 .btn-language{
     background-color: #1d1818;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     padding-right: 20px;
     padding-left: 20px;
     border-radius: 4px;
+    border: 1px solid white;
 }
 
 .btn-sign-in{
@@ -45,7 +45,7 @@ body{
     padding-right: 20px;
     padding-left: 20px;
     border-radius: 5px;
-   width: fit-content;
+    width: fit-content;
     cursor: pointer;
 }
 
@@ -57,23 +57,60 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+
 .main-title-contanier{
     color: white;
     width: 50%;
     text-align: center;
-
 }
+
 .main-title{
-    font-family: netflix-sans-regular;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3.2em;
     margin-bottom: 14px;
 }
+
 .main-subtitle{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     margin-bottom: 40px;
 }
+
 .main-call-to-action{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
+}
+
+.main-email-container{
+    width: 55%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-email-input{
+    margin-left: 20%;
+    outline: none;
+    border: none;
+    padding: 20px 10px;
+    font-size: 1em;
+}
+
+.main-get-started{
+    cursor: pointer;
+    padding: 18px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    background-color: #e50914;
+    color: white;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main-get-started:hover{
+    background-color: #ff0b18;
 }
